@@ -58,6 +58,12 @@ You should get an ouput similar to this one:
 javac 21.0.3
 ```
 
+## :runner: Run Application
+
+```bash
+./mvnw spring-boot:run  
+```
+
 [1]: https://docs.oracle.com/en/java/javase/21/docs/api/index.html
 [2]: https://junit.org/junit5/
 [3]: https://maven.apache.org/
