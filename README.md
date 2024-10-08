@@ -58,10 +58,30 @@ You should get an ouput similar to this one:
 javac 21.0.3
 ```
 
-## :runner: Run Application
+**:runner: Run Application**
 
+To compile, package, and immediately run the Spring Boot application, use:
 ```bash
 ./mvnw spring-boot:run  
+```
+
+To clean the project, removing all previously compiled files, then compile and package it:
+```bash
+mvn clean package
+```
+
+### :gear: ENV
+
+**:whale: Docker**
+
+In the Dockerfile:
+```bash
+ENV MY_VARIABLE=value
+```
+
+With docker run:
+```bash
+docker run -e MY_VARIABLE=value myapp
 ```
 
 [1]: https://docs.oracle.com/en/java/javase/21/docs/api/index.html
